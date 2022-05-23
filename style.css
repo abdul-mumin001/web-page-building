@@ -176,12 +176,15 @@ nav a{
 .clearfix::after {
     content: "";
     display: block;
+  
+    
 
 
 }
 
 .clearfix::after {
     clear: both;
+
 }
 
 .header {
@@ -193,18 +196,23 @@ nav a{
 .container {
     max-width: 1140px;
     margin: 0px auto;
-
+    
+    
 }
 
 .brand1 {
     float: left;
     font-size: 40px;
     color: white;
+    position: fixed;
+
 
 }
 
 .nav {
     float: right;
+    
+    
 
 
 }
@@ -212,6 +220,7 @@ nav a{
 .nav a {
     color: white;
     text-decoration: none;
+    
 }
 
 .head {
@@ -395,4 +404,10 @@ button {
 .scenery h6{
     font-size: 18px;
     color:brown;
+}
+.arraw img{
+    width: 100px;
+    position: fixed;
+    left: 1400px;
+    bottom: 10px;
 }
